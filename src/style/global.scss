@@ -1,0 +1,25 @@
+/*
+    模块化全局css
+*/
+@import './gl-color.scss';
+@import './gl-padding.scss';
+@import './gl-margin.scss';
+@import './gl-width.scss';
+@import './gl-height.scss';
+@import './gl-flex.scss';
+@import './gl-shape.scss';
+html,body,#app {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.no-warp {
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.text-center {
+    text-align: center;
+}

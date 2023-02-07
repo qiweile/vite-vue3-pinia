@@ -1,0 +1,67 @@
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+.flex2 {
+  flex: 2;
+}
+.flex-lh {
+    display: flex;
+    align-items: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-start {
+  @extend .flex-row;
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-between {
+  @extend .flex-row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center {
+  @extend .flex-row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between-v {
+  @extend .flex-column;
+  align-items: center;
+  justify-content: space-between;
+}
+// 沾满整行环绕布局
+.flex-between-a {
+  @extend .flex-row;
+  align-items: center;
+  justify-content: space-around;
+}
+// 
+.flex-between-v-s {
+  @extend .flex-column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-inline {
+  display: inline-flex;
+}
